@@ -1,0 +1,27 @@
+.cartButton {
+  position: relative;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cartNotification {
+  position: absolute;
+  top: -8px;
+  left: -8px;
+  color: #ffffff;
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  border-radius: 50%;
+  font-size: 14px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

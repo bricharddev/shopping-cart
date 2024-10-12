@@ -1,0 +1,90 @@
+.listItem {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  background-color: #ffffff;
+  min-width: 275px;
+  max-width: 275px;
+  min-height: 425px;
+  height: fit-content;
+  overflow: hidden;
+  border-radius: 0.4rem;
+
+  padding: 0.5rem;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.addCartButton {
+  position: absolute;
+  background: #ff4500;
+  border: none;
+  outline: none;
+  padding: 0.5rem;
+
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 300ms;
+  transform: translateY(110%);
+}
+
+.listItem:hover .addCartButton {
+  transform: translateY(0);
+}
+
+.imgContainer {
+  width: fit-content;
+  margin: 0 auto;
+  border-bottom: 1px solid gray;
+}
+
+.infos {
+  flex: 1;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.title {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.value {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: green;
+}
+
+.description {
+  color: gray;
+  font-size: 0.7rem;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sellerName {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.712);
+  color: white;
+  font-weight: bold;
+  padding: 0.3rem 1rem;
+  letter-spacing: 1px;
+  width: fit-content;
+  border-radius: 0 0 0 1rem;
+  font-size: 0.6rem;
+}

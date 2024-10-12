@@ -1,0 +1,43 @@
+.cartItem {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  padding-bottom: 0.6rem;
+  margin-top: 0.6rem;
+  background-color: rgba(83, 82, 82, 0.253);
+  padding: 0.3rem 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 6px;
+}
+
+.title {
+  color: #efeaea;
+  word-wrap: break-word;
+  font-weight: 400;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-top: 1px solid orangered;
+}
+
+.value {
+  color: #efeaea;
+  font-size: 1.1rem;
+}
+
+.deleteBt {
+  background: none;
+  border: none;
+  color: #efeaea;
+  padding: 0.3rem;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
+.deleteBt:hover {
+  color: black;
+}

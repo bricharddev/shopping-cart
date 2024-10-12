@@ -1,0 +1,9 @@
+.select {
+  padding: 0.3rem;
+  outline: none;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
+}
